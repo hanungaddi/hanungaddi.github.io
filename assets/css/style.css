@@ -96,4 +96,7 @@ body {
   .about-container {
     max-width: 100%;
   }
+  .jumbotron {
+    height: 120em;
+  }
 }
