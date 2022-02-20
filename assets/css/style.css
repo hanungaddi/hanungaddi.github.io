@@ -55,13 +55,6 @@ body {
   max-height: 300px;
 }
 
-@media (max-width: 330px) {
-  .pic {
-    width: 0px;
-    height: 0px;
-  }
-}
-
 .text-profile {
   min-height: 100px;
   max-width: 40em;
@@ -90,4 +83,17 @@ body {
 .about-paragraph {
   color: #fff;
   font-size: 24px;
+}
+
+@media (max-width: 330px) {
+  .pic {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-container {
+    max-width: 100%;
+  }
 }
