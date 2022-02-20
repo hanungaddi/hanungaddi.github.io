@@ -18,6 +18,10 @@ body {
   padding-right: 20px;
 }
 
+.about-container {
+  max-width: 80%;
+}
+
 /*
  * Header
  */
@@ -68,7 +72,22 @@ body {
   color: #fff;
 }
 
+.logopic {
+  width: 48px;
+  height: 48px;
+}
+
 .text-project {
   text-align: center;
   font-size: large;
+}
+
+.about-header {
+  color: #4fc3f7;
+  font-size: 50px;
+}
+
+.about-paragraph {
+  color: #fff;
+  font-size: 24px;
 }
