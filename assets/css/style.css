@@ -51,6 +51,13 @@ body {
   max-height: 300px;
 }
 
+@media (max-width: 330px) {
+  .pic {
+    width: 0px;
+    height: 0px;
+  }
+}
+
 .text-profile {
   min-height: 100px;
   max-width: 40em;
@@ -59,4 +66,9 @@ body {
 .logo {
   font-size: 48px;
   color: #fff;
+}
+
+.text-project {
+  text-align: center;
+  font-size: large;
 }
