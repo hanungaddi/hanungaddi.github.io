@@ -36,7 +36,7 @@
     <main class="jumbotron d-flex p-3 mx-auto flex-column">
       <div class="profile-container d-flex flex-column justify-content-center">
         <div class="row justify-content-center">
-          <div class="text-profile d-flex justify-content-center flex-column align-items-start col-12 col-sm-6">
+          <div class="text-profile d-flex justify-content-center flex-column align-items-start col-12 col-xxl-6 order-2 order-xxl-1">
             <div class="typing">
               <h2 class="text-uppercase">Hello...</h2>
             </div>
@@ -56,13 +56,14 @@
               </a>
             </div>
           </div>
-          <div class="pic-profile d-flex flex-row-reverse justify-content-center col-12 col-sm-2">
+          <div class="pic-profile d-flex flex-row-reverse justify-content-center col-12 col-xxl-2 order-1 order-xxl-2">
             <img class="pic" src="assets\pics\Profilepic.jpg" alt="Hanung Addi" />
           </div>
         </div>
       </div>
     </main>
 
+    <!-- footer -->
     <footer>
       <div class="container"></div>
     </footer>

@@ -7,26 +7,26 @@
   font-family: "Poppins", sans-serif;
 }
 
-.typing::before {
+/* .typing::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   width: 2px;
   height: 100%;
-  background: #4fc3f7;
-  animation: cursorBlink 0.8s steps(3) infinite;
-}
+  overflow: hidden;
+  animation: blink-caret 0.8s step-end infinite;
+} */
 
-@keyframes cursorBlink {
+@keyframes blink-caret {
   0%,
   75% {
-    opacity: 1;
+    border-color: transparent;
   }
 
   76%,
   100% {
-    opacity: 0;
+    border-color: #4fc3f7;
   }
 }
 
@@ -42,7 +42,8 @@
   font-size: 4rem;
   overflow: hidden;
   margin-bottom: 0;
-  animation: type 5s steps(11) infinite;
+  border-right: 2px solid #4fc3f7;
+  animation: type 5s steps(11) infinite, blink-caret 0.8s step-end infinite;
 }
 
 @keyframes type {
@@ -53,7 +54,7 @@
 
   30%,
   60% {
-    width: 394.09px;
+    width: 100%;
   }
 }
 
@@ -71,7 +72,7 @@
 
     30%,
     60% {
-      width: 305px;
+      width: 100%;
     }
   }
 }
